@@ -1,0 +1,60 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-BlazorApp2-5293dc84-0489-42ab-9717-91d7ecb812fd</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\Models\NewFolder\**" />
+    <Compile Remove="Data\Migrations\NewFolder\**" />
+    <Compile Remove="Data\NewFolder1\**" />
+    <Compile Remove="Data\NewFolder2\**" />
+    <Compile Remove="Data\NewFolder3\**" />
+    <Compile Remove="Data\NewFolder4\**" />
+    <Compile Remove="Data\NewFolder5\**" />
+    <Compile Remove="Data\NewFolder6\**" />
+    <Compile Remove="Data\NewFolder\**" />
+    <Content Remove="Data\Models\NewFolder\**" />
+    <Content Remove="Data\Migrations\NewFolder\**" />
+    <Content Remove="Data\NewFolder1\**" />
+    <Content Remove="Data\NewFolder2\**" />
+    <Content Remove="Data\NewFolder3\**" />
+    <Content Remove="Data\NewFolder4\**" />
+    <Content Remove="Data\NewFolder5\**" />
+    <Content Remove="Data\NewFolder6\**" />
+    <Content Remove="Data\NewFolder\**" />
+    <EmbeddedResource Remove="Data\Models\NewFolder\**" />
+    <EmbeddedResource Remove="Data\Migrations\NewFolder\**" />
+    <EmbeddedResource Remove="Data\NewFolder1\**" />
+    <EmbeddedResource Remove="Data\NewFolder2\**" />
+    <EmbeddedResource Remove="Data\NewFolder3\**" />
+    <EmbeddedResource Remove="Data\NewFolder4\**" />
+    <EmbeddedResource Remove="Data\NewFolder5\**" />
+    <EmbeddedResource Remove="Data\NewFolder6\**" />
+    <EmbeddedResource Remove="Data\NewFolder\**" />
+    <None Remove="Data\Models\NewFolder\**" />
+    <None Remove="Data\Migrations\NewFolder\**" />
+    <None Remove="Data\NewFolder1\**" />
+    <None Remove="Data\NewFolder2\**" />
+    <None Remove="Data\NewFolder3\**" />
+    <None Remove="Data\NewFolder4\**" />
+    <None Remove="Data\NewFolder5\**" />
+    <None Remove="Data\NewFolder6\**" />
+    <None Remove="Data\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Data\Services\" />
+  </ItemGroup>
+
+</Project>
